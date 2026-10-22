@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça a Água Pura, uma ONG fictícia criada para um projeto acadêmico que promove acesso sustentável à água potável e educação ambiental.">
+  <title>Início | ONG Água Pura</title>
+  <link rel="icon" href="img/agua-pura-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo principal</a>
+  <header class="cabecalho">
+    <div class="container cabecalho-interno">
+      <a class="marca" href="index.html" aria-label="Água Pura — página inicial">
+        <img src="img/agua-pura-logo.svg" alt="" width="45" height="45">
+        <span>Água <strong>Pura</strong><small>Água, vida e dignidade</small></span>
+       </a>
+
+      <nav class="menu-principal" aria-label="Navegação principal">
+        <a href="index.html" aria-current="page">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="projetos.html">Projetos</a>
+        <a class="link-destaque" href="contato.html">Participe</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero faixa-suave">
+
+      <div class="container hero-interno">
+
+        <div class="hero-texto">
+          <p class="sobretitulo"><span class="ponto-agua"></span> Água limpa transforma vidas</p>
+          <h1>Água limpa não é privilégio. É o começo da <span class="texto-azul">dignidade humana.</span></h1>
+          <p class="texto-intro">A Água Pura acredita que toda comunidade merece acesso à água potável, saneamento e conhecimento para cuidar desse recurso essencial.</p>
+          <div class="acoes-hero">
+
+            <a class="botao botao-principal" href="projetos.html">Conheça nossos projetos <span aria-hidden="true">→</span></a>
+            <a class="botao botao-secundario" href="sobre.html">Conheça a ONG</a>
+          </div>
+
+          <p class="nota-prototipo">Projeto acadêmico demonstrativo de uma ONG fictícia.</p>
+        </div>
+
+        <div class="hero-imagem">
+          <img src="img/hero-agua.svg" alt="Ilustração de uma gota de água sobre uma paisagem verde com uma comunidade e um reservatório." width="720" height="560">
+          <div class="selo-imagem"><span aria-hidden="true">✦</span><span>Água para todos,<br><strong>um futuro melhor</strong></span></div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="secao container" aria-labelledby="porque-titulo">
+      <div class="cabecalho-secao">
+
+        <p class="sobretitulo">Por que existimos?</p>
+
+        <h2 id="porque-titulo">O acesso à água muda tudo</h2>
+
+        <p>Sem água segura e saneamento, a saúde, a educação e o desenvolvimento comunitário ficam comprometidos.</p>
+      </div>
+
+      <div class="cartoes-impacto">
+        <article class="cartao-impacto">
+          <span class="icone-circulo" aria-hidden="true">♡</span>
+          <h3>Mais saúde</h3>
+
+          <p>Água de qualidade e hábitos de higiene ajudam a prevenir doenças relacionadas à água contaminada.</p>
+        </article>
+
+        <article class="cartao-impacto">
+          <span class="icone-circulo icone-verde" aria-hidden="true">⌂</span>
+
+          <h3>Mais oportunidades</h3>
+          <p>O acesso próximo à água pode liberar tempo para estudar, trabalhar e cuidar da família.</p>
+        </article>
+
+        <article class="cartao-impacto">
+          <span class="icone-circulo icone-dourado" aria-hidden="true">↗</span>
+
+          <h3>Comunidades fortes</h3>
+          <p>Conhecimento e soluções sustentáveis fortalecem a autonomia e o desenvolvimento local.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="secao secao-azul-claro">
+      <div class="container chamada-projetos">
+        <div>
+
+          <p class="sobretitulo">A mudança começa em conjunto</p>
+
+          <h2>Pequenas ações podem abrir caminho para grandes transformações.</h2>
+
+          <p>Conheça iniciativas de captação de água da chuva, tecnologias acessíveis de filtragem e educação ambiental.</p>
+
+          <a class="botao botao-principal" href="projetos.html">Ver iniciativas <span aria-hidden="true">→</span></a>
+        </div>
+
+        <img src="img/projeto-chuva.svg" alt="Ilustração de chuva sendo captada por calhas e armazenada em um reservatório." width="480" height="360" loading="lazy">
+      </div>
+
+    </section>
+
+    <section class="secao container secao-ajuda" aria-labelledby="ajuda-titulo">
+
+      <div class="cabecalho-secao">
+
+        <p class="sobretitulo">Faça parte</p>
+        <h2 id="ajuda-titulo">Toda contribuição começa com uma atitude</h2>
+        <p>Você pode ajudar a levar informação e incentivar o cuidado com a água em sua comunidade.</p>
+      </div>
+
+      <div class="painel-ajuda-cartao">
+        <div class="painel-ajuda-intro">
+          <div class="icone-circulo icone-verde" aria-hidden="true">✳</div>
+          <div>
+
+            <h3>Descubra como participar</h3>
+
+            <p>Veja algumas maneiras de apoiar a causa.</p>
+
+          </div>
+
+        </div>
+
+        <button class="botao botao-secundario botao-toggle" id="toggle-ajuda" type="button" aria-expanded="false" aria-controls="painel-ajuda">Conheça formas de ajudar <span aria-hidden="true">＋</span></button>
+        <div id="painel-ajuda" class="painel-ajuda-conteudo" hidden>
+          <ul class="lista-check">
+
+            <li>Participar de ações de conscientização ambiental.</li>
+
+            <li>Compartilhar informações sobre o uso consciente da água.</li>
+
+            <li>Colaborar como voluntário em atividades comunitárias.</li>
+
+            <li>Incentivar escolas e grupos locais a conversar sobre saneamento.</li>
+
+          </ul>
+          <a class="link-seta" href="contato.html">Entre em contato para saber mais <span aria-hidden="true">→</span></a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="faixa-cta">
+
+      <div class="container faixa-cta-interno">
+
+        <div>
+          <p class="sobretitulo sobretitulo-claro">Juntos pela água</p>
+
+          <h2>O acesso à água potável deve fazer parte do futuro de todos.</h2>
+
+        </div>
+        <a class="botao botao-branco" href="contato.html">Fale com a Água Pura <span aria-hidden="true">→</span></a>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+
+    <div class="container rodape-principal">
+
+      <div class="rodape-marca">
+
+        <a class="marca marca-rodape" href="index.html">
+
+          <img src="img/agua-pura-logo.svg" alt="" width="42" height="42">
+
+          <span>Água <strong>Pura</strong><small>Água, vida e dignidade</small></span>
+
+        </a>
+        <p>Promovendo a reflexão sobre água potável, saneamento e educação ambiental.</p>
+
+      </div>
+      <div class="rodape-links">
+
+        <h2>Navegação</h2>
+
+        <a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="projetos.html">Projetos</a><a href="contato.html">Contato</a>
+      </div>
+
+      <div class="rodape-links">
+
+        <h2>Nossa causa</h2>
+
+        <span>Água potável</span><span>Educação ambiental</span><span>Autonomia comunitária</span>
+
+      </div>
+
+    </div>
+
+    <div class="container rodape-final">
+      <p>© 2026 ONG Água Pura — projeto acadêmico fictício.</p>
+      <p>Esta página não representa uma organização real nem recebe doações.</p>
+    </div>
+    
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça três iniciativas demonstrativas da ONG fictícia Água Pura: água comunitária, captação da chuva e educação ambiental.">
+  <title>Projetos | ONG Água Pura</title>
+  <link rel="icon" href="img/agua-pura-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo principal</a>
+  <header class="cabecalho"><div class="container cabecalho-interno">
+    <a class="marca" href="index.html" aria-label="Água Pura — página inicial"><img src="img/agua-pura-logo.svg" alt="" width="45" height="45"><span>Água <strong>Pura</strong><small>Água, vida e dignidade</small></span></a>
+    <nav class="menu-principal" aria-label="Navegação principal"><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="projetos.html" aria-current="page">Projetos</a><a class="link-destaque" href="contato.html">Participe</a></nav>
+  </div></header>
+
+  <main id="conteudo">
+    <section class="pagina-cabecalho faixa-suave"><div class="container pagina-cabecalho-interno">
+      <p class="sobretitulo">Nossas iniciativas</p><h1>Soluções locais para cuidar de um recurso essencial.</h1>
+      <p>As iniciativas abaixo são propostas de atuação da Água Pura e mostram como tecnologia, conhecimento e comunidade podem caminhar juntos.</p>
+      <p class="nota-prototipo">Projetos demonstrativos para fins acadêmicos; não representam ações já executadas.</p>
+    </div></section>
+
+    <section class="secao container" aria-labelledby="projetos-titulo">
+      <div class="cabecalho-secao cabecalho-secao-esquerda"><p class="sobretitulo">O que propomos</p><h2 id="projetos-titulo">Três iniciativas, um objetivo em comum</h2><p>Cada projeto deve ser planejado de acordo com as condições da região, com orientação técnica e participação dos moradores.</p></div>
+      <div class="grade-projetos">
+        <article class="cartao-projeto">
+          <img src="img/projeto-comunidade.svg" alt="Ilustração de um sistema comunitário de distribuição de água." width="560" height="360" loading="lazy">
+          <div class="conteudo-projeto"><span class="etiqueta-projeto">Infraestrutura comunitária</span><h3>Água para Todos</h3><p>Planejar soluções comunitárias de acesso à água, como sistemas de armazenamento, pontos de distribuição e, quando houver viabilidade técnica e autorização, captação por poços com bombeamento eficiente.</p><h4>Como a comunidade pode contribuir</h4><p>Participando do diagnóstico das necessidades, das reuniões de planejamento e da organização dos cuidados e da manutenção do sistema.</p></div>
+        </article>
+        <article class="cartao-projeto">
+          <img src="img/projeto-chuva.svg" alt="Ilustração de um telhado com calha direcionando água da chuva para um reservatório." width="560" height="360" loading="lazy">
+          <div class="conteudo-projeto"><span class="etiqueta-projeto">Tecnologia sustentável</span><h3>Chuva que Transforma</h3><p>Incentivar sistemas de captação e armazenamento da água da chuva para usos apropriados, com orientação sobre filtragem, manutenção e limites de uso seguro.</p><h4>Como a comunidade pode contribuir</h4><p>Ajudando a mapear locais adequados, participando de mutirões educativos e aprendendo a inspecionar calhas e reservatórios.</p></div>
+        </article>
+        <article class="cartao-projeto">
+          <img src="img/projeto-educacao.svg" alt="Ilustração de uma oficina educativa com pessoas reunidas ao redor de gotas de água." width="560" height="360" loading="lazy">
+          <div class="conteudo-projeto"><span class="etiqueta-projeto">Educação ambiental</span><h3>Comunidade Consciente</h3><p>Realizar oficinas sobre higiene, prevenção de doenças, conservação dos recursos hídricos e uso consciente da água em escolas e espaços comunitários.</p><h4>Como a comunidade pode contribuir</h4><p>Compartilhando conhecimentos locais, convidando participantes, apoiando a divulgação das oficinas e colocando hábitos sustentáveis em prática.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao secao-azul-claro"><div class="container chamada-projetos chamada-projetos-invertida">
+      <div><p class="sobretitulo">Compromisso com a transparência</p><h2>O impacto começa com escuta, planejamento e acompanhamento.</h2><p>As propostas consideram a participação dos moradores, a manutenção das estruturas e o monitoramento da qualidade da água. Resultados reais somente poderiam ser divulgados após atividades e avaliações verificáveis.</p><a class="botao botao-principal" href="sobre.html">Conheça nossos pilares <span aria-hidden="true">→</span></a></div>
+      <img src="img/comunidade.svg" alt="Ilustração de moradores colaborando em uma comunidade." width="560" height="440" loading="lazy">
+    </div></section>
+  </main>
+
+  <footer class="rodape"><div class="container rodape-principal">
+    <div class="rodape-marca"><a class="marca marca-rodape" href="index.html"><img src="img/agua-pura-logo.svg" alt="" width="42" height="42"><span>Água <strong>Pura</strong><small>Água, vida e dignidade</small></span></a><p>Promovendo a reflexão sobre água potável, saneamento e educação ambiental.</p></div>
+    <div class="rodape-links"><h2>Navegação</h2><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="projetos.html">Projetos</a><a href="contato.html">Contato</a></div>
+    <div class="rodape-links"><h2>Nossa causa</h2><span>Água potável</span><span>Educação ambiental</span><span>Autonomia comunitária</span></div>
+  </div><div class="container rodape-final"><p>© 2026 ONG Água Pura — projeto acadêmico fictício.</p><p>Esta página não representa uma organização real nem recebe doações.</p></div></footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça o propósito, a missão, a visão, os valores e os pilares de atuação da ONG fictícia Água Pura.">
+  <title>Sobre | ONG Água Pura</title>
+  <link rel="icon" href="img/agua-pura-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo principal</a>
+  <header class="cabecalho">
+    <div class="container cabecalho-interno">
+      <a class="marca" href="index.html" aria-label="Água Pura — página inicial"><img src="img/agua-pura-logo.svg" alt="" width="45" height="45"><span>Água <strong>Pura</strong><small>Água, vida e dignidade</small></span></a>
+      <nav class="menu-principal" aria-label="Navegação principal">
+        <a href="index.html">Início</a><a href="sobre.html" aria-current="page">Sobre</a><a href="projetos.html">Projetos</a><a class="link-destaque" href="contato.html">Participe</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="pagina-cabecalho faixa-suave">
+      <div class="container pagina-cabecalho-interno">
+        <p class="sobretitulo">Quem somos</p>
+        <h1>Água é vida. Acesso à água é dignidade.</h1>
+        <p>Trabalhamos, como proposta de organização social, por soluções acessíveis e sustentáveis que aproximem comunidades da água segura e do conhecimento.</p>
+        <p class="nota-prototipo">A Água Pura é uma ONG fictícia criada para fins acadêmicos.</p>
+      </div>
+    </section>
+
+    <section class="secao container sobre-apresentacao">
+      <div class="sobre-imagem"><img src="img/comunidade.svg" alt="Ilustração de moradores reunidos em uma comunidade próxima a uma fonte de água." width="560" height="440" loading="lazy"></div>
+      <div class="sobre-texto">
+        <p class="sobretitulo">Nosso propósito</p>
+        <h2>Transformar o acesso à água em uma oportunidade para todos.</h2>
+        <p>A Água Pura nasce da ideia de que nenhuma comunidade deveria ter sua saúde e suas oportunidades limitadas pela falta de água potável ou saneamento adequado.</p>
+        <p>A proposta é unir tecnologia acessível, educação ambiental e participação comunitária. Cada iniciativa deve considerar a realidade local e preparar os moradores para cuidar e manter as soluções implantadas.</p>
+        <p>O projeto também valoriza o monitoramento da qualidade da água e a transparência na comunicação dos resultados e dos recursos utilizados.</p>
+      </div>
+    </section>
+
+    <section class="secao secao-azul-claro">
+      <div class="container">
+        <div class="cabecalho-secao">
+          <p class="sobretitulo">Nossa direção</p><h2>Missão, visão e valores</h2>
+          <p>Princípios que orientam as escolhas e as ações propostas para a organização.</p>
+        </div>
+        <div class="cartoes-valores">
+          <article class="cartao cartao-destaque"><span class="rotulo-card">Missão</span><h3>Levar água e dignidade</h3><p>Levar água potável, dignidade e esperança para comunidades vulneráveis por meio de soluções hídricas sustentáveis e inovadoras.</p></article>
+          <article class="cartao"><span class="rotulo-card">Visão</span><h3>Um futuro com água para todos</h3><p>Ser referência na redução da escassez de água potável em comunidades vulneráveis, contribuindo para um futuro em que a água limpa seja uma realidade para todos.</p></article>
+          <article class="cartao"><span class="rotulo-card">Valores</span><h3>Agir com responsabilidade</h3><p>Transparência na gestão, empatia com as comunidades, sustentabilidade nas soluções e colaboração com moradores, voluntários e parceiros.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao container">
+      <div class="cabecalho-secao">
+        <p class="sobretitulo">Como atuamos</p><h2>Quatro pilares para um impacto duradouro</h2>
+      </div>
+      <div class="lista-pilares">
+        <article class="pilar"><span class="numero-pilar">01</span><div><h3>Tecnologia acessível e sustentável</h3><p>Propor soluções de baixo custo, como captação e filtragem de água da chuva, poços comunitários com energia solar quando viáveis e filtros cerâmicos ou de bioareia com manutenção simples.</p></div></article>
+        <article class="pilar"><span class="numero-pilar">02</span><div><h3>Educação e conscientização ambiental</h3><p>Promover oficinas sobre higiene, saúde preventiva, conservação da água e formas responsáveis de reutilização de águas cinzas, respeitando as orientações sanitárias aplicáveis.</p></div></article>
+        <article class="pilar"><span class="numero-pilar">03</span><div><h3>Empoderamento comunitário</h3><p>Capacitar moradores para acompanhar, operar e manter os sistemas, fortalecendo a autonomia local e a continuidade dos projetos.</p></div></article>
+        <article class="pilar"><span class="numero-pilar">04</span><div><h3>Diagnóstico e monitoramento</h3><p>Prever análises periódicas da qualidade da água e acompanhamento dos resultados para orientar melhorias e manter a prestação de contas transparente.</p></div></article>
+      </div>
+    </section>
+
+    <section class="faixa-cta">
+      <div class="container faixa-cta-interno"><div><p class="sobretitulo sobretitulo-claro">Um compromisso coletivo</p><h2>Conhecimento, cuidado e colaboração fazem a diferença.</h2></div><a class="botao botao-branco" href="projetos.html">Conheça os projetos <span aria-hidden="true">→</span></a></div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-principal">
+      <div class="rodape-marca"><a class="marca marca-rodape" href="index.html"><img src="img/agua-pura-logo.svg" alt="" width="42" height="42"><span>Água <strong>Pura</strong><small>Água, vida e dignidade</small></span></a><p>Promovendo a reflexão sobre água potável, saneamento e educação ambiental.</p></div>
+      <div class="rodape-links"><h2>Navegação</h2><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="projetos.html">Projetos</a><a href="contato.html">Contato</a></div>
+      <div class="rodape-links"><h2>Nossa causa</h2><span>Água potável</span><span>Educação ambiental</span><span>Autonomia comunitária</span></div>
+    </div>
+    <div class="container rodape-final"><p>© 2026 ONG Água Pura — projeto acadêmico fictício.</p><p>Esta página não representa uma organização real nem recebe doações.</p></div>
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com a ONG fictícia Água Pura e conheça maneiras demonstrativas de participar da causa da água potável.">
+  <title>Contato | ONG Água Pura</title>
+  <link rel="icon" href="img/agua-pura-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo principal</a>
+  <header class="cabecalho"><div class="container cabecalho-interno">
+    <a class="marca" href="index.html" aria-label="Água Pura — página inicial"><img src="img/agua-pura-logo.svg" alt="" width="45" height="45"><span>Água <strong>Pura</strong><small>Água, vida e dignidade</small></span></a>
+    <nav class="menu-principal" aria-label="Navegação principal"><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="projetos.html">Projetos</a><a class="link-destaque" href="contato.html" aria-current="page">Participe</a></nav>
+  </div></header>
+
+  <main id="conteudo">
+    <section class="pagina-cabecalho faixa-suave"><div class="container pagina-cabecalho-interno">
+      <p class="sobretitulo">Vamos conversar</p><h1>Uma mudança coletiva começa com diálogo.</h1><p>Use o formulário demonstrativo para compartilhar uma dúvida, indicar interesse em voluntariado ou conversar sobre uma possível parceria.</p>
+    </div></section>
+
+    <section class="secao container contato-layout">
+      <div class="contato-informacoes">
+        <p class="sobretitulo">Fale com a gente</p><h2>Como você gostaria de participar?</h2>
+        <p>Esta página apresenta um formulário de demonstração para a atividade acadêmica. As informações preenchidas não são enviadas nem armazenadas.</p>
+        <div class="informacao-contato"><span class="icone-circulo" aria-hidden="true">✉</span><div><h3>Envio simulado</h3><p>O site não está conectado a um serviço de e-mail ou banco de dados.</p></div></div>
+        <div class="informacao-contato"><span class="icone-circulo icone-verde" aria-hidden="true">♧</span><div><h3>Voluntariado e participação</h3><p>Você pode demonstrar interesse em ações educativas, divulgação da causa ou colaboração comunitária.</p></div></div>
+        <div class="aviso-transparencia"><strong>Importante:</strong> a Água Pura é fictícia neste projeto e não recebe doações reais. Não informe dados pessoais sensíveis.</div>
+      </div>
+
+      <div class="formulario-cartao">
+        <h2>Envie uma mensagem</h2><p class="texto-formulario">Preencha todos os campos indicados com <span aria-hidden="true">*</span>.</p>
+        <form id="form-contato" novalidate>
+          <div class="campo-formulario"><label for="nome">Nome completo <span aria-hidden="true">*</span></label><input type="text" id="nome" name="nome" autocomplete="name" required minlength="3" aria-describedby="dica-nome"><small id="dica-nome" class="dica-campo">Digite pelo menos 3 caracteres.</small></div>
+          <div class="campo-formulario"><label for="email">E-mail <span aria-hidden="true">*</span></label><input type="email" id="email" name="email" autocomplete="email" required aria-describedby="dica-email"><small id="dica-email" class="dica-campo">Informe um endereço de e-mail válido.</small></div>
+          <div class="campo-formulario"><label for="assunto">Assunto <span aria-hidden="true">*</span></label><select id="assunto" name="assunto" required><option value="">Selecione um assunto</option><option value="voluntariado">Quero saber sobre voluntariado</option><option value="projetos">Tenho uma dúvida sobre os projetos</option><option value="parceria">Possível parceria</option><option value="educacao">Educação ambiental</option><option value="outro">Outro assunto</option></select></div>
+          <div class="campo-formulario"><label for="mensagem">Mensagem <span aria-hidden="true">*</span></label><textarea id="mensagem" name="mensagem" rows="5" required minlength="10" aria-describedby="dica-mensagem"></textarea><small id="dica-mensagem" class="dica-campo">Escreva pelo menos 10 caracteres.</small></div>
+          <button class="botao botao-principal botao-enviar" type="submit">Validar mensagem <span aria-hidden="true">→</span></button>
+          <p class="nota-formulario">Envio exclusivamente simulado para demonstração acadêmica.</p>
+          <div id="retorno-formulario" class="retorno-formulario" role="status" aria-live="polite" tabindex="-1" hidden></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape"><div class="container rodape-principal">
+    <div class="rodape-marca"><a class="marca marca-rodape" href="index.html"><img src="img/agua-pura-logo.svg" alt="" width="42" height="42"><span>Água <strong>Pura</strong><small>Água, vida e dignidade</small></span></a><p>Promovendo a reflexão sobre água potável, saneamento e educação ambiental.</p></div>
+    <div class="rodape-links"><h2>Navegação</h2><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="projetos.html">Projetos</a><a href="contato.html">Contato</a></div>
+    <div class="rodape-links"><h2>Nossa causa</h2><span>Água potável</span><span>Educação ambiental</span><span>Autonomia comunitária</span></div>
+  </div><div class="container rodape-final"><p>© 2026 ONG Água Pura — projeto acadêmico fictício.</p><p>Esta página não representa uma organização real nem recebe doações.</p></div></footer>
+</body>
+</html>

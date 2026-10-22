@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Educação ambiental</title><desc id="descricao">Ilustração de uma oficina em que uma pessoa apresenta uma gota de água para um grupo.</desc>
+<rect width="560" height="360" rx="28" fill="#f0f8f5"/><circle cx="455" cy="63" r="26" fill="#f4c96a"/>
+<rect x="220" y="58" width="250" height="171" rx="12" fill="#fff" stroke="#063b55" stroke-width="6"/><rect x="237" y="75" width="216" height="137" rx="5" fill="#dff3f3"/>
+<path d="M346 94c-17 27-41 51-41 73a41 41 0 0 0 82 0c0-22-24-46-41-73Z" fill="#138a9e"/><path d="M324 169c0 9 6 17 14 20" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/><path d="M237 229h216l18 24H219Z" fill="#063b55"/>
+<!-- presenter -->
+<g stroke="#063b55" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="133" cy="148" r="23" fill="#b87550"/><path d="M109 141q23-37 48-1v-12q-25-29-48 0" fill="#3c302c"/><path d="M107 178q27-17 53 0l13 87h-80Z" fill="#138a9e"/><path d="M111 264l-8 46m45-46 6 46"/><path d="M113 191l-27 30m73-28 25-18" fill="none"/><path d="M184 175l20-17" fill="none"/></g>
+<!-- seated people -->
+<g stroke="#063b55" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="260" cy="273" r="18" fill="#e0a879"/><path d="M241 296q19-13 39 0l8 45h-55Z" fill="#e4b45d"/><path d="M249 338l-3 17m25-17 5 17"/><circle cx="359" cy="273" r="18" fill="#7b513e"/><path d="M340 296q19-13 39 0l8 45h-55Z" fill="#75bca0"/><path d="M348 338l-3 17m25-17 5 17"/><circle cx="458" cy="273" r="18" fill="#c78861"/><path d="M439 296q19-13 39 0l8 45h-55Z" fill="#8acbd1"/><path d="M447 338l-3 17m25-17 5 17"/></g>
+</svg>

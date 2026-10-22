@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Comunidade colaborando</title><desc id="descricao">Ilustração de pessoas reunidas ao lado de casas, árvores e uma fonte de água.</desc>
+<rect width="600" height="470" rx="34" fill="#eaf6f7"/><circle cx="490" cy="75" r="30" fill="#f4c96a"/>
+<path d="M0 310Q120 240 242 309T600 290V436Q600 470 565 470H35Q0 470 0 436Z" fill="#c4e8d7"/><path d="M0 370Q155 311 278 369T600 358V436Q600 470 565 470H35Q0 470 0 436Z" fill="#75c1a0"/>
+<!-- houses -->
+<g stroke="#063b55" stroke-width="5" stroke-linejoin="round"><path d="M54 274l53-45 55 45v66H54Z" fill="#fffaf0"/><path d="M44 275l63-55 65 55" fill="#e4b45d"/><rect x="77" y="301" width="22" height="39" fill="#a4d9dc" stroke="none"/><path d="M442 276l48-43 50 43v65h-98Z" fill="#fffaf0"/><path d="M432 277l58-53 60 53" fill="#138a9e"/><rect x="472" y="300" width="19" height="41" fill="#a4d9dc" stroke="none"/></g>
+<!-- community water pump -->
+<g stroke="#063b55" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M286 279v89m-32-89h65m-49 0v-28h35v28" fill="none"/><path d="M268 251h47l-5-22h-37Z" fill="#138a9e"/><path d="M317 247l27-23" fill="none"/><path d="M338 223l12 5" fill="none"/></g>
+<!-- people -->
+<g stroke="#063b55" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="205" cy="292" r="22" fill="#b87550"/><path d="M181 286q24-34 47-3" fill="#3c302c"/><path d="M181 321q24-18 48 0l10 65h-68Z" fill="#138a9e"/><path d="M191 385l-6 44m34-44 7 44"/><path d="M176 338l-24 30m72-30 22 17" fill="none"/><circle cx="377" cy="294" r="22" fill="#e0a879"/><path d="M354 287q20-31 45 0v-9q-22-26-45 0" fill="#48342e"/><path d="M353 322q23-18 48 0l10 64h-68Z" fill="#e4b45d"/><path d="M362 385l-6 44m34-44 7 44"/><path d="M352 338l-20 20m67-20 24 24" fill="none"/></g>
+<g fill="#fff"><circle cx="197" cy="290" r="3"/><circle cx="212" cy="290" r="3"/><circle cx="369" cy="292" r="3"/><circle cx="384" cy="292" r="3"/></g>
+<path d="M284 396q16-14 32 0" fill="none" stroke="#063b55" stroke-width="5" stroke-linecap="round"/>
+</svg>

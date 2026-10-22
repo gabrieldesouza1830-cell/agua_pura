@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Sistema comunitário de água</title><desc id="descricao">Ilustração de um reservatório de água abastecendo uma comunidade com árvores e casas.</desc>
+<rect width="560" height="360" rx="28" fill="#eaf6f7"/><circle cx="465" cy="62" r="26" fill="#f4c96a"/><path d="M0 255q90-45 175 0t190 0t195 0v70q0 35-35 35H35q-35 0-35-35Z" fill="#bfe5cf"/>
+<g stroke="#063b55" stroke-width="5" stroke-linejoin="round"><path d="M48 207l44-38 44 38v54H48Z" fill="#fffaf0"/><path d="M39 208l53-47 53 47" fill="#e4b45d"/><path d="M420 207l44-38 44 38v54h-88Z" fill="#fffaf0"/><path d="M411 208l53-47 53 47" fill="#138a9e"/></g>
+<!-- elevated water tank -->
+<g stroke="#063b55" stroke-width="6" stroke-linejoin="round"><path d="M220 157v132m70-132v132m-70-65h70" fill="none"/><rect x="203" y="94" width="104" height="80" rx="18" fill="#a9dfe1"/><ellipse cx="255" cy="95" rx="52" ry="15" fill="#d1f0ee"/><path d="M216 128h78" stroke="#138a9e" stroke-width="11" stroke-linecap="round"/><path d="M255 174v23h-78v28M255 197h93v28" fill="none" stroke="#138a9e" stroke-width="8"/></g>
+<g fill="#138a9e"><circle cx="177" cy="225" r="7"/><circle cx="348" cy="225" r="7"/></g>
+<!-- trees -->
+<g><path d="M164 250v41m0-67-22 31h44Z" stroke="#287b67" stroke-width="10" stroke-linecap="round"/><circle cx="164" cy="202" r="27" fill="#68b991"/><path d="M377 250v41m0-67-22 31h44Z" stroke="#287b67" stroke-width="10" stroke-linecap="round"/><circle cx="377" cy="202" r="27" fill="#68b991"/></g>
+<path d="M24 305q60-20 120 0t120 0t120 0t152 0" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

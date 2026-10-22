@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="titulo">
+  <title id="titulo">Símbolo da Água Pura</title>
+  <defs><linearGradient id="gota" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#138a9e"/><stop offset="1" stop-color="#063b55"/></linearGradient></defs>
+  <path d="M50 5 C40 24 19 45 19 63a31 31 0 0 0 62 0C81 45 60 24 50 5Z" fill="url(#gota)"/>
+  <path d="M32 64c0 11 8 20 19 21" fill="none" stroke="#bfe8e5" stroke-width="5" stroke-linecap="round"/>
+  <path d="M37 54c3-6 8-13 13-20" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Água e comunidade</title><desc id="descricao">Ilustração de uma grande gota azul sobre colinas verdes, casas e um reservatório de água.</desc>
+<defs><linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d9f2f3"/><stop offset="1" stop-color="#f5fbf8"/></linearGradient><linearGradient id="gota" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#29b9c4"/><stop offset="1" stop-color="#087391"/></linearGradient></defs>
+<rect x="25" y="20" width="670" height="510" rx="42" fill="url(#ceu)"/>
+<circle cx="585" cy="101" r="34" fill="#f4c96a"/>
+<path d="M25 310 Q125 224 242 300T470 288T695 280V489Q695 530 654 530H66Q25 530 25 489Z" fill="#c3e6d4"/>
+<path d="M25 370Q130 296 251 361T476 346T695 350V489Q695 530 654 530H66Q25 530 25 489Z" fill="#6ebd9e"/>
+<path d="M25 430Q144 371 264 425T510 421T695 413V489Q695 530 654 530H66Q25 530 25 489Z" fill="#328d78"/>
+<!-- houses -->
+<g stroke="#063b55" stroke-width="5" stroke-linejoin="round"><path d="M92 382l55-47 57 47v72H92Z" fill="#fffaf0"/><path d="M82 383l65-57 66 57" fill="#e4b45d"/><rect x="113" y="405" width="23" height="49" rx="3" fill="#85cbd1" stroke="none"/><rect x="153" y="399" width="20" height="20" fill="#bfe8e5" stroke="none"/><path d="M520 370l44-40 46 40v61h-90Z" fill="#fffaf0"/><path d="M510 371l54-49 57 49" fill="#138a9e"/><rect x="542" y="391" width="17" height="40" fill="#85cbd1" stroke="none"/><rect x="570" y="390" width="18" height="18" fill="#bfe8e5" stroke="none"/></g>
+<!-- water tower -->
+<g><rect x="461" y="330" width="11" height="93" rx="5" fill="#063b55"/><rect x="442" y="313" width="49" height="47" rx="9" fill="#fff" stroke="#063b55" stroke-width="5"/><path d="M447 337h39" stroke="#138a9e" stroke-width="9" stroke-linecap="round"/><path d="M466 362l-13 19m18-19 13 19" stroke="#063b55" stroke-width="4" stroke-linecap="round"/></g>
+<!-- large water drop -->
+<path d="M360 93C332 142 272 202 272 255a88 88 0 0 0 176 0c0-53-60-113-88-162Z" fill="url(#gota)" stroke="#fff" stroke-width="8"/>
+<path d="M318 251c0 22 13 41 32 48" fill="none" stroke="#d8f7f6" stroke-width="11" stroke-linecap="round"/><path d="M335 199c6-12 15-25 25-38" fill="none" stroke="#fff" stroke-opacity=".8" stroke-width="8" stroke-linecap="round"/>
+<!-- sparkle dots -->
+<g fill="#fff"><circle cx="228" cy="123" r="5"/><circle cx="492" cy="203" r="4"/><circle cx="219" cy="265" r="3"/></g><g stroke="#138a9e" stroke-width="4" stroke-linecap="round"><path d="M207 170v18m-9-9h18"/><path d="M510 263v16m-8-8h16"/></g>
+</svg>

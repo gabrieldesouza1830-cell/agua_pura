@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Captação de água da chuva</title><desc id="descricao">Casa com telhado e calha conectada a um reservatório que recolhe água da chuva.</desc>
+<rect width="560" height="400" rx="30" fill="#eaf6f7"/><circle cx="469" cy="69" r="28" fill="#f4c96a"/>
+<path d="M0 293Q105 248 206 295T400 283T560 290V365Q560 400 525 400H35Q0 400 0 365Z" fill="#bfe5ce"/>
+<path d="M72 189l128-99 128 99" fill="#e4b45d" stroke="#063b55" stroke-width="7" stroke-linejoin="round"/><path d="M101 181v151h202V181" fill="#fffaf0" stroke="#063b55" stroke-width="7" stroke-linejoin="round"/><rect x="133" y="215" width="43" height="45" rx="3" fill="#bfe8e5" stroke="#063b55" stroke-width="5"/><path d="M154 216v43m-21-21h43" stroke="#fff" stroke-width="4"/><rect x="215" y="250" width="48" height="82" rx="3" fill="#138a9e" stroke="#063b55" stroke-width="6"/><circle cx="238" cy="293" r="5" fill="#fff"/>
+<!-- gutter, downpipe, tank -->
+<path d="M73 188H332v18h-34v90" fill="none" stroke="#063b55" stroke-width="10" stroke-linejoin="round"/><path d="M299 251v39" stroke="#138a9e" stroke-width="9" stroke-linecap="round"/>
+<rect x="356" y="245" width="118" height="108" rx="20" fill="#8dd1d7" stroke="#063b55" stroke-width="6"/><ellipse cx="415" cy="245" rx="59" ry="17" fill="#b7e7e8" stroke="#063b55" stroke-width="6"/><path d="M365 290h100" stroke="#fff" stroke-width="7" stroke-linecap="round"/><path d="M365 316h100" stroke="#fff" stroke-width="7" stroke-linecap="round"/><path d="M332 286h24" stroke="#063b55" stroke-width="9" stroke-linecap="round"/>
+<!-- rain -->
+<g stroke="#138a9e" stroke-width="6" stroke-linecap="round"><path d="M354 95l-9 20m34-33-9 20m32 3-9 20m-80 8-9 20m114-51-9 20"/></g>
+<path d="M369 150c-5 9-11 17-11 24a11 11 0 0 0 22 0c0-7-6-15-11-24Z" fill="#138a9e"/><path d="M406 175c-4 7-9 14-9 19a9 9 0 0 0 18 0c0-5-5-12-9-19Z" fill="#138a9e"/>
+</svg>

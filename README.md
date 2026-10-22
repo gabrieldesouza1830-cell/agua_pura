@@ -1,5 +1,17 @@
 # ONG Água Pura — Projeto Integrador
 
+# Integrantes do grupo
+
+ANNY ISABELLY SILVA SANTOS - 47290056
+CAUÃ VICTOR DA SILVA PENA - 46770950
+GABRIEL RODRIGUES DA SILVA - 46885030
+GABRIEL SOUZA - 46683305
+LEONARDO VICTOR DA SILVA - 47269294
+MAURICIO DE MOURA JUNIOR - 46898891
+THIAGO PINHO MACEDO ARAUJO - 47016604
+VINICIUS BATISTA MERENCIO - 46749527
+ÍTALO LEAL OLIVEIRA - 47837098
+
 ## Sobre o projeto
 
 Site institucional responsivo criado para uma atividade acadêmica de Fundamentos da Web e Desenvolvimento Front-end, utilizando HTML5 semântico, CSS3 e JavaScript básico, sem frameworks e sem backend.

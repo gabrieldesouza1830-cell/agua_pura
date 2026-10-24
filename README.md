@@ -24,7 +24,9 @@ Site institucional responsivo criado para uma atividade acadêmica de Fundamento
 - `sobre.html` — propósito, história conceitual, missão, visão, valores e quatro pilares de atuação.
 - `projetos.html` — três propostas de iniciativa: Água para Todos, Chuva que Transforma e Comunidade Consciente.
 - `contato.html` — formulário com nome, e-mail, assunto e mensagem, incluindo validação e confirmação simulada.
-
+- `estilo.css` - utilizado para acrescentar e alinhar tudo presente no site.
+- `script.js` - para interação adicional e validar o formulário.
+  
 ## Funcionalidades JavaScript
 
 O arquivo `js/script.js` contém somente as duas funcionalidades previstas na atividade:

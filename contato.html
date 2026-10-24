@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!-- HTML5 -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com a ONG fictícia Água Pura e conheça maneiras demonstrativas de participar da causa da água potável.">
+  <title>Contato | ONG Água Pura</title>
+  <link rel="icon" href="img/agua-pura-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js" defer></script> <!-- O script.js também faz a validação do formulário desta página -->
+</head>
+<body>
+
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo principal</a>
+
+  <!-- Cabeçalho: aqui o link ativo é "Participe" (que leva a esta página) -->
+  <header class="cabecalho"><div class="container cabecalho-interno">
+    <a class="marca" href="index.html" aria-label="Água Pura — página inicial"><img src="img/agua-pura-logo.svg" alt="" width="45" height="45"><span>Água <strong>Pura</strong><small>Água, vida e dignidade</small></span></a>
+    <nav class="menu-principal" aria-label="Navegação principal"><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="projetos.html">Projetos</a><a class="link-destaque" href="contato.html" aria-current="page">Participe</a></nav>
+  </div></header>
+
+  <main id="conteudo">
+
+    <section class="pagina-cabecalho faixa-suave"><div class="container pagina-cabecalho-interno">
+      <p class="sobretitulo">Vamos conversar</p><h1>Uma mudança coletiva começa com diálogo.</h1><p>Use o formulário demonstrativo para compartilhar uma dúvida, indicar interesse em voluntariado ou conversar sobre uma possível parceria.</p>
+    </div></section>
+
+    <!-- Layout em duas colunas: informações à esquerda, formulário à direita -->
+    <section class="secao container contato-layout">
+
+      <!-- Coluna de informações -->
+      <div class="contato-informacoes">
+        <p class="sobretitulo">Fale com a gente</p><h2>Como você gostaria de participar?</h2>
+        <p>Esta página apresenta um formulário de demonstração para a atividade acadêmica. As informações preenchidas não são enviadas nem armazenadas.</p>
+        <div class="informacao-contato"><span class="icone-circulo" aria-hidden="true">✉</span><div><h3>Envio simulado</h3><p>O site não está conectado a um serviço de e-mail ou banco de dados.</p></div></div>
+        <div class="informacao-contato"><span class="icone-circulo icone-verde" aria-hidden="true">♧</span><div><h3>Voluntariado e participação</h3><p>Você pode demonstrar interesse em ações educativas, divulgação da causa ou colaboração comunitária.</p></div></div>
+        <!-- Aviso importante: o projeto é fictício -->
+        <div class="aviso-transparencia"><strong>Importante:</strong> a Água Pura é fictícia neste projeto e não recebe doações reais. Não informe dados pessoais sensíveis.</div>
+      </div>
+
+      <!-- Coluna do formulário -->
+      <div class="formulario-cartao">
+        <h2>Envie uma mensagem</h2><p class="texto-formulario">Preencha todos os campos indicados com <span aria-hidden="true">*</span>.</p>
+
+        <!-- novalidate desativa a validação padrão do navegador, pois a validação é feita pelo seu JavaScript (script.js) -->
+        <form id="form-contato" novalidate>
+
+          <!-- Campo NOME
+               "for" liga o rótulo ao campo com o mesmo id (clicar no texto foca o campo)
+               autocomplete="name": o navegador pode sugerir o nome do usuário
+               required: obrigatório | minlength: mínimo de caracteres
+               aria-describedby: liga o campo à dica abaixo, para leitores de tela -->
+          <div class="campo-formulario"><label for="nome">Nome completo <span aria-hidden="true">*</span></label><input type="text" id="nome" name="nome" autocomplete="name" required minlength="3" aria-describedby="dica-nome"><small id="dica-nome" class="dica-campo">Digite pelo menos 3 caracteres.</small></div>
+
+          <!-- Campo E-MAIL: type="email" valida o formato e abre o teclado adequado no celular -->
+          <div class="campo-formulario"><label for="email">E-mail <span aria-hidden="true">*</span></label><input type="email" id="email" name="email" autocomplete="email" required aria-describedby="dica-email"><small id="dica-email" class="dica-campo">Informe um endereço de e-mail válido.</small></div>
+
+          <!-- Campo ASSUNTO: lista suspensa; a primeira opção tem value vazio, forçando o usuário a escolher -->
+          <div class="campo-formulario"><label for="assunto">Assunto <span aria-hidden="true">*</span></label><select id="assunto" name="assunto" required><option value="">Selecione um assunto</option><option value="voluntariado">Quero saber sobre voluntariado</option><option value="projetos">Tenho uma dúvida sobre os projetos</option><option value="parceria">Possível parceria</option><option value="educacao">Educação ambiental</option><option value="outro">Outro assunto</option></select></div>
+
+          <!-- Campo MENSAGEM: texto longo (5 linhas visíveis), mínimo de 10 caracteres -->
+          <div class="campo-formulario"><label for="mensagem">Mensagem <span aria-hidden="true">*</span></label><textarea id="mensagem" name="mensagem" rows="5" required minlength="10" aria-describedby="dica-mensagem"></textarea><small id="dica-mensagem" class="dica-campo">Escreva pelo menos 10 caracteres.</small></div>
+
+          <!-- type="submit" dispara o envio, que o JS intercepta para validar (sem enviar de verdade) -->
+          <button class="botao botao-principal botao-enviar" type="submit">Validar mensagem <span aria-hidden="true">→</span></button>
+          <p class="nota-formulario">Envio exclusivamente simulado para demonstração acadêmica.</p>
+
+          <!-- Área onde o JS mostra a mensagem de sucesso ou erro:
+               role="status" + aria-live="polite": leitores de tela anunciam o resultado
+               tabindex="-1": permite que o JS mova o foco para cá
+               hidden: escondido até o JS exibir -->
+          <div id="retorno-formulario" class="retorno-formulario" role="status" aria-live="polite" tabindex="-1" hidden></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape"><div class="container rodape-principal">
+    <div class="rodape-marca"><a class="marca marca-rodape" href="index.html"><img src="img/agua-pura-logo.svg" alt="" width="42" height="42"><span>Água <strong>Pura</strong><small>Água, vida e dignidade</small></span></a><p>Promovendo a reflexão sobre água potável, saneamento e educação ambiental.</p></div>
+    <div class="rodape-links"><h2>Navegação</h2><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="projetos.html">Projetos</a><a href="contato.html">Contato</a></div>
+    <div class="rodape-links"><h2>Nossa causa</h2><span>Água potável</span><span>Educação ambiental</span><span>Autonomia comunitária</span></div>
+  </div><div class="container rodape-final"><p>© 2026 ONG Água Pura — projeto acadêmico fictício.</p><p>Esta página não representa uma organização real nem recebe doações.</p></div></footer>
+</body>
+</html>
